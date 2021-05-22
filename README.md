@@ -3,7 +3,7 @@
 #Step by step chia blockchain installation on ubuntu 20 with lates code 1.1.1
 
 	#Use the below repo to install chia blockchain
-	https://github.com/shahzadkazama/chia_blockchain_ansible_playbook.git
+	https://github.com/dbellt/chia_blockchain_ansible_playbook.git
 
 1-
   # install ansible and git on base machine
@@ -11,11 +11,11 @@
 
 2-
   # git clone the ansible playbook for chia blockchain
-	git clone https://github.com/shahzadkazama/chia_blockchain_ansible_playbook.git
+	git clone https://github.com/dbellt/chia_blockchain_ansible_playbook.git
 
 3-
   # update the hosts file according to your chia machine
-	my_vm ansible_ssh_host=54.176.214.34 ansible_ssh_user=root ansible_ssh_port=22 ansible_ssh_pass=redhat_1
+	my_vm ansible_ssh_host=xx.xxx.xxx.xx ansible_ssh_user=root ansible_ssh_port=22 
 
 4-
   # install the sshpass utility on base machine
